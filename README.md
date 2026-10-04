@@ -109,8 +109,8 @@ I am a 3rd-year **Artificial Intelligence & Data Science** undergraduate at **QI
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=harinath4496&show_icons=true&theme=transparent&hide_border=true&title_color=38bdf8&text_color=e2e8f0&icon_color=818cf8&rank_color=c084fc&include_all_commits=true" height="175" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harinath4496&layout=compact&theme=transparent&hide_border=true&title_color=38bdf8&text_color=e2e8f0" height="175" alt="Top Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=harinath4496&show_icons=true&theme=transparent&hide_border=true&title_color=38bdf8&text_color=e2e8f0&icon_color=818cf8&rank_color=c084fc&include_all_commits=true" height="175" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=harinath4496&layout=compact&theme=transparent&hide_border=true&title_color=38bdf8&text_color=e2e8f0" height="175" alt="Top Languages" />
 </div>
 
 <br/>
