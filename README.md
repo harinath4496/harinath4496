@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./header-scenery.svg" width="100%" alt="Hari Nath Banner" />
+<img src="./banner-hero.svg" width="100%" alt="Hari Nath Banner" />
 
 <br/><br/>
 
