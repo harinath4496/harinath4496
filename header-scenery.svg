@@ -178,7 +178,7 @@
     <text x="0" y="58" fill="#ffffff" font-size="38" font-weight="700" letter-spacing="1" class="font-sans">Hari Nath</text>
 
     <!-- Sleek Role Subtitle -->
-    <text x="0" y="90" fill="#a1a1aa" font-size="15" font-weight="400" letter-spacing="0.4" class="font-sans">AI &amp; Systems Developer · Android &amp; Edge Engineering</text>
+    <text x="0" y="90" fill="#a1a1aa" font-size="15" font-weight="400" letter-spacing="0.4" class="font-sans">AI, Full-Stack &amp; Systems Developer · Android &amp; Cloud</text>
 
     <!-- Clean Tech Accent Line -->
     <g transform="translate(0, 114)" opacity="0.85">
