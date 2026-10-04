@@ -1,0 +1,190 @@
+<svg width="850" height="220" viewBox="0 0 850 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050507" />
+      <stop offset="60%" stop-color="#0f0f14" />
+      <stop offset="100%" stop-color="#18181f" />
+    </linearGradient>
+
+    <!-- Mountain Gradient 1 (Furthest) -->
+    <linearGradient id="mtn1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2a35" />
+      <stop offset="100%" stop-color="#111116" />
+    </linearGradient>
+
+    <!-- Mountain Gradient 2 (Mid) -->
+    <linearGradient id="mtn2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e26" />
+      <stop offset="100%" stop-color="#0d0d12" />
+    </linearGradient>
+
+    <!-- Mountain Gradient 3 (Foreground) -->
+    <linearGradient id="mtn3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14141a" />
+      <stop offset="100%" stop-color="#08080a" />
+    </linearGradient>
+
+    <!-- Moon Glow -->
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.3" />
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Mist Gradient -->
+    <linearGradient id="mistGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="25%" stop-color="#ffffff" stop-opacity="0.06" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.12" />
+      <stop offset="75%" stop-color="#ffffff" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Vignette / Text Protection -->
+    <linearGradient id="textVignette" x1="0%" y1="0%" x2="70%" y2="0%">
+      <stop offset="0%" stop-color="#050507" stop-opacity="0.85" />
+      <stop offset="60%" stop-color="#050507" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#050507" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.2; transform: scale(0.8); }
+      50% { opacity: 0.9; transform: scale(1.2); }
+    }
+    @keyframes floatMoon {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+    @keyframes driftMist {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(-60px); }
+      100% { transform: translateX(0); }
+    }
+    @keyframes shootingStar {
+      0% { transform: translateX(0) translateY(0); opacity: 0; }
+      10% { opacity: 0.9; }
+      30% { transform: translateX(-140px) translateY(70px); opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes pulseBeacon {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+
+    .star-1 { animation: twinkle 3s ease-in-out infinite; transform-origin: center; }
+    .star-2 { animation: twinkle 4.5s ease-in-out infinite 1.2s; transform-origin: center; }
+    .star-3 { animation: twinkle 2.5s ease-in-out infinite 0.6s; transform-origin: center; }
+    .moon-anim { animation: floatMoon 8s ease-in-out infinite; }
+    .mist-anim { animation: driftMist 14s ease-in-out infinite alternate; }
+    .meteor { animation: shootingStar 9s ease-in infinite 3s; }
+    .beacon { animation: pulseBeacon 2.5s ease-in-out infinite; }
+
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .font-mono {
+      font-family: "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+    }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="850" height="220" rx="12" fill="url(#skyGrad)" stroke="#27272e" stroke-width="1.2" />
+
+  <!-- Stars Field -->
+  <g fill="#ffffff">
+    <!-- Star cluster right -->
+    <circle cx="580" cy="35" r="1" class="star-1" />
+    <circle cx="620" cy="55" r="1.2" class="star-2" />
+    <circle cx="670" cy="28" r="0.8" class="star-3" />
+    <circle cx="730" cy="60" r="1.2" class="star-1" />
+    <circle cx="780" cy="40" r="1" class="star-2" />
+    <circle cx="810" cy="70" r="0.8" class="star-3" />
+    <circle cx="530" cy="65" r="0.9" class="star-2" />
+
+    <!-- Star cluster mid/left -->
+    <circle cx="340" cy="30" r="1" class="star-3" />
+    <circle cx="410" cy="50" r="0.8" class="star-1" />
+    <circle cx="470" cy="25" r="1.2" class="star-2" />
+    <circle cx="270" cy="45" r="0.8" class="star-1" />
+    <circle cx="180" cy="28" r="1" class="star-3" />
+  </g>
+
+  <!-- Minimalist Shooting Star -->
+  <g class="meteor" opacity="0">
+    <line x1="720" y1="20" x2="680" y2="40" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" />
+    <circle cx="680" cy="40" r="1.5" fill="#ffffff" />
+  </g>
+
+  <!-- Minimalist Moon (Crisp Monochrome Geometric) -->
+  <g class="moon-anim" transform="translate(680, 55)">
+    <!-- Ambient Halo -->
+    <circle cx="0" cy="0" r="45" fill="url(#moonGlow)" />
+    <!-- Outer Ring -->
+    <circle cx="0" cy="0" r="22" stroke="#ffffff" stroke-width="1" stroke-opacity="0.4" fill="none" stroke-dasharray="2 4" />
+    <!-- Core Moon -->
+    <circle cx="0" cy="0" r="16" fill="#f4f4f5" />
+    <!-- Subtle Crater Shadow / Silhouette -->
+    <circle cx="5" cy="-2" r="14" fill="#14141a" opacity="0.85" />
+  </g>
+
+  <!-- Far Mountain Range (Layer 1) -->
+  <path d="M 160 220 L 260 145 L 340 175 L 430 120 L 520 160 L 610 115 L 700 150 L 790 110 L 850 140 L 850 220 Z"
+        fill="url(#mtn1)" />
+  <!-- Far Mountain Crest Highlights -->
+  <path d="M 260 145 L 340 175 M 430 120 L 520 160 M 610 115 L 700 150 M 790 110 L 850 140"
+        stroke="#52525e" stroke-width="0.8" fill="none" opacity="0.6" />
+
+  <!-- Mid Mountain Range (Layer 2) -->
+  <path d="M 0 220 L 80 165 L 180 185 L 290 135 L 390 175 L 490 130 L 600 170 L 710 125 L 810 165 L 850 150 L 850 220 Z"
+        fill="url(#mtn2)" />
+  <!-- Mid Ridge Edge Light -->
+  <path d="M 0 220 L 80 165 L 180 185 L 290 135 L 390 175 L 490 130 L 600 170 L 710 125 L 810 165 L 850 150"
+        stroke="#71717e" stroke-width="1" fill="none" opacity="0.4" />
+
+  <!-- Animated Drifting Mist Across Ridge -->
+  <g class="mist-anim">
+    <ellipse cx="500" cy="165" rx="350" ry="18" fill="url(#mistGrad)" />
+    <ellipse cx="650" cy="180" rx="250" ry="14" fill="url(#mistGrad)" />
+  </g>
+
+  <!-- Foreground Mountain Ridge (Layer 3) -->
+  <path d="M 0 220 L 0 175 L 120 185 L 220 155 L 350 195 L 480 150 L 620 190 L 750 155 L 850 180 L 850 220 Z"
+        fill="url(#mtn3)" />
+  <path d="M 0 175 L 120 185 L 220 155 L 350 195 L 480 150 L 620 190 L 750 155 L 850 180"
+        stroke="#a1a1aa" stroke-width="1.2" fill="none" opacity="0.3" />
+
+  <!-- Small Mountain Peak Signal Beacon (Subtle Engineering Accent) -->
+  <g transform="translate(480, 150)">
+    <circle cx="0" cy="0" r="2.5" fill="#ffffff" class="beacon" />
+    <circle cx="0" cy="0" r="6" stroke="#ffffff" stroke-width="0.8" opacity="0.3" fill="none" class="beacon" />
+  </g>
+
+  <!-- Text Scrim / Vignette (Keeps Left Side Text Perfectly Legible) -->
+  <rect x="0" y="0" width="550" height="220" rx="12" fill="url(#textVignette)" />
+
+  <!-- Content Hierarchy (Left Aligned, Clean & Modern) -->
+  <g transform="translate(56, 48)">
+    <!-- Small Status Tag -->
+    <g transform="translate(0, 6)">
+      <circle cx="4" cy="4" r="3" fill="#ffffff" class="beacon" />
+      <text x="16" y="7.5" fill="#d4d4d8" font-size="11" font-weight="600" letter-spacing="2" class="font-mono">PORTFOLIO &amp; SYSTEMS</text>
+    </g>
+
+    <!-- Main Name -->
+    <text x="0" y="58" fill="#ffffff" font-size="38" font-weight="700" letter-spacing="1" class="font-sans">Hari Nath</text>
+
+    <!-- Sleek Role Subtitle -->
+    <text x="0" y="90" fill="#a1a1aa" font-size="15" font-weight="400" letter-spacing="0.4" class="font-sans">AI, Full-Stack &amp; Systems Developer · Android &amp; Cloud</text>
+
+    <!-- Clean Tech Accent Line -->
+    <g transform="translate(0, 114)" opacity="0.85">
+      <rect x="0" y="0" width="22" height="2" fill="#ffffff" />
+      <rect x="28" y="0" width="6" height="2" fill="#71717a" />
+      <rect x="38" y="0" width="6" height="2" fill="#3f3f46" />
+    </g>
+  </g>
+</svg>
