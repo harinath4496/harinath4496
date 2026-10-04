@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,35&height=220&section=header&text=Hari%20Nath&fontSize=50&fontAlignY=36&desc=AI%20%26%20Data%20Science%20Undergrad%20%7C%20SIH%20%2726%20Finalist%20%7C%20Builder&descFontSize=20&descAlignY=58" width="100%"/>
+<img src="./header-banner.svg" width="100%" alt="Hari Nath Header Banner" />
 
-<br/>
+<br/><br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=61AFEF&center=true&vCenter=true&width=620&lines=AI+%26+Data+Science+Undergrad+at+QIS;SIH+2026+Finalist+%E2%80%94+Project+iTantra;Android+%26+Edge+AI+Systems+Builder;Passionate+about+TinyML+%26+Autonomous+Agents)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=38BDF8&center=true&vCenter=true&width=650&lines=3rd+Year+AI+%26+Data+Science+Undergrad+%40+QIS;SIH+2026+Finalist+%E2%80%94+Project+iTantra;Native+Android+Developer+(Kotlin+%26+Compose);Building+Autonomous+Edge+AI+Systems)](https://git.io/typing-svg)
 
 <br/>
 
@@ -33,60 +33,60 @@ I am a 3rd-year **Artificial Intelligence & Data Science** undergraduate at **QI
   <tr>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40" alt="Python" />
-      <br>Python
+      <br><b>Python</b>
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" width="40" height="40" alt="Kotlin" />
-      <br>Kotlin
+      <br><b>Kotlin</b>
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40" alt="Java" />
-      <br>Java
+      <br><b>Java</b>
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40" alt="C++" />
-      <br>C++
+      <br><b>C++</b>
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript" />
-      <br>JavaScript
+      <br><b>JavaScript</b>
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" height="40" alt="SQL" />
-      <br>SQL
+      <br><b>SQL</b>
     </td>
   </tr>
   <tr>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="40" height="40" alt="PyTorch" />
-      <br>PyTorch
+      <br><b>PyTorch</b>
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" width="40" height="40" alt="OpenCV" />
-      <br>OpenCV
+      <br><b>OpenCV</b>
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" width="40" height="40" alt="Android" />
-      <br>Android SDK
+      <br><b>Android SDK</b>
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetpackcompose/jetpackcompose-original.svg" width="40" height="40" alt="Compose" />
-      <br>Compose
+      <br><b>Compose</b>
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40" alt="Git" />
-      <br>Git
+      <br><b>Git</b>
     </td>
     <td align="center" width="96">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40" alt="Linux" />
-      <br>Linux
+      <br><b>Linux</b>
     </td>
   </tr>
 </table>
 
 <br/>
 
-**Focus Areas:**
+**Focus Disciplines:**
 `Edge AI / TinyML` • `Deep Learning` • `Computer Vision` • `Speech Processing (STT/TTS)` • `Android Jetpack Compose` • `Robotic IoT Systems` • `Autonomous AI Agents`
 
 ---
@@ -107,14 +107,14 @@ I am a 3rd-year **Artificial Intelligence & Data Science** undergraduate at **QI
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=harinath4496&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harinath4496&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=harinath4496&show_icons=true&theme=transparent&hide_border=true&title_color=38bdf8&text_color=e2e8f0&icon_color=818cf8&rank_color=c084fc&include_all_commits=true" height="175" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harinath4496&layout=compact&theme=transparent&hide_border=true&title_color=38bdf8&text_color=e2e8f0" height="175" alt="Top Languages" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=harinath4496&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=harinath4496&theme=transparent&hide_border=true&stroke=38bdf8&ring=818cf8&fire=38bdf8&currStreakLabel=38bdf8&sideNums=e2e8f0&sideLabels=94a3b8" alt="GitHub Streak" />
 </div>
 
 ---
