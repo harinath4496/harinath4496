@@ -4,13 +4,18 @@
 
 <br/><br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=38BDF8&center=true&vCenter=true&width=650&lines=3rd+Year+AI+%26+Data+Science+Undergrad+%40+QIS;SIH+2026+Finalist+%E2%80%94+Project+iTantra;Native+Android+Developer+(Kotlin+%26+Compose);Building+Autonomous+Edge+AI+Systems)](https://git.io/typing-svg)
+<p align="center">
+  <img src="https://img.shields.io/badge/Specialization-Edge%20AI%20%7C%20TinyML%20%7C%20On--Device%20Neural-0284c7?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hackathon-SIH%202026%20Finalist%20(ISRO%20PS%23173)-6366f1?style=flat-square&logo=spacex&logoColor=white" />
+  <img src="https://img.shields.io/badge/Education-QIS%20CET%20(AI%20%26%20DS)-8b5cf6?style=flat-square&logo=googleclassroom&logoColor=white" />
+  <img src="https://img.shields.io/badge/Mobile-Native%20Android%20%7C%20Compose-22c55e?style=flat-square&logo=android&logoColor=white" />
+</p>
 
-<br/>
-
-[![GitHub followers](https://img.shields.io/github/followers/harinath4496?label=Followers&style=for-the-badge&logo=github&color=238636)](https://github.com/harinath4496)
-[![Gmail](https://img.shields.io/badge/Email-harinath4496%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harinath4496@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Ongole%2C%20AP%2C%20India-blue?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+<p align="center">
+  <a href="https://github.com/harinath4496"><img src="https://img.shields.io/github/followers/harinath4496?label=Followers&style=for-the-badge&logo=github&color=238636" /></a>
+  <a href="mailto:harinath4496@gmail.com"><img src="https://img.shields.io/badge/Email-harinath4496%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Location-Ongole%2C%20AP%2C%20India-blue?style=for-the-badge&logo=googlemaps&logoColor=white" />
+</p>
 
 </div>
 
@@ -18,12 +23,12 @@
 
 ### 👨‍💻 About Me
 
-I am a 3rd-year **Artificial Intelligence & Data Science** undergraduate at **QIS College of Engineering & Technology**, passionate about bridging the gap between high-level AI models and low-resource edge devices. My core focus lies in **Edge AI / TinyML**, **Native Android Development (Jetpack Compose)**, and **Autonomous Agent Architectures**.
+I am a 3rd-year **Artificial Intelligence & Data Science** undergraduate at **QIS College of Engineering & Technology**, passionate about bridging high-performance AI models with edge devices and embedded systems. My primary engineering focus revolves around **Edge AI / TinyML**, **Native Android Development (Jetpack Compose)**, and **Autonomous Agent Architectures**.
 
-- 🏆 **Smart India Hackathon (SIH 2026) Finalist**: Engineering **iTantra** (ISRO PS #173) — an offline, edge-capable multilingual neural transceiver radio with on-device STT/TTS.
-- 🛡️ **Capstone Project**: Architecting **Project Aegis** — an AI-powered robotic IoT fall detection and telemetry monitoring system.
-- 📱 **Android & Systems**: Building responsive, native Android applications including **IrahMusic** (modern music streaming) and **QIS CORTEX** (academic & campus intelligence platform).
-- 🧠 **Research & Exploration**: Deep diving into on-device neural inference (ONNX, PyTorch Mobile) and autonomous agentic workflows on mobile.
+- 🏆 **Smart India Hackathon (SIH 2026) Finalist**: Core contributor to **iTantra** (ISRO PS #173) — an offline, edge-capable multilingual neural transceiver radio with on-device STT/TTS.
+- 🛡️ **Capstone Lead**: Architecting **Project Aegis** — an AI-powered robotic IoT fall detection and telemetry health monitoring system.
+- 📱 **Android & Systems**: Engineering reactive native Android applications, including **IrahMusic** (modern audio streaming) and **QIS CORTEX** (academic & campus intelligence platform).
+- 🧠 **Research & Exploration**: Deep diving into on-device neural inference (ONNX, PyTorch Mobile) and autonomous agentic workflows on mobile environments.
 
 ---
 
@@ -95,9 +100,9 @@ I am a 3rd-year **Artificial Intelligence & Data Science** undergraduate at **QI
 
 | Project | Description | Core Stack |
 | :--- | :--- | :--- |
-| **🛰️ iTantra (SIH '26)** | Offline multilingual neural transceiver radio with edge speech synthesis & recognition (ISRO PS #173). | `Python`, `ONNX`, `DSP`, `Radio Hardware` |
-| **🛡️ Project Aegis** | AI-driven robotic IoT fall detection and remote health telematics monitor with vision inference. | `IoT`, `OpenCV`, `Microcontrollers`, `Python` |
-| **📱 QIS CORTEX** | Offline-first campus intelligence platform with dynamic timetable detection and compliance radar. | `Kotlin`, `Android`, `Material3`, `Room DB` |
+| **🛰️ [iTantra (SIH '26)](https://github.com/harinath4496)** | Offline multilingual neural transceiver radio with edge speech synthesis & recognition (ISRO PS #173). | `Python`, `ONNX`, `DSP`, `Radio Hardware` |
+| **🛡️ [Project Aegis](https://github.com/harinath4496)** | AI-driven robotic IoT fall detection and remote health telematics monitor with vision inference. | `IoT`, `OpenCV`, `Microcontrollers`, `Python` |
+| **📱 [QIS CORTEX](https://github.com/harinath4496)** | Offline-first campus intelligence platform with dynamic timetable detection and compliance radar. | `Kotlin`, `Android`, `Material3`, `Room DB` |
 | **🎵 [IrahMusic](https://github.com/harinath4496/IrahMusic)** | Fluid, high-performance native Android music playback & streaming application. | `Kotlin`, `Jetpack Compose`, `ExoPlayer` |
 | **🤖 [Agentic AI on Android](https://github.com/harinath4496/AGENTIC-AI-IN-ANDROID)** | Autonomous agentic AI workflows and LLM orchestration on mobile devices. | `Android`, `Kotlin`, `AI Agents`, `LLM` |
 | **🌐 [Portfolio Website](https://github.com/harinath4496/portfolio-Nothing)** | Responsive personal portfolio showcasing full-stack capabilities, UI engineering, and design. | `HTML5`, `CSS3`, `JavaScript`, `Animations` |
