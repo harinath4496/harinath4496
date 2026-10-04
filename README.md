@@ -9,9 +9,10 @@
 <br/>
 
 <p align="center">
-  <a href="https://github.com/harinath4496"><img src="https://img.shields.io/github/followers/harinath4496?label=Followers&style=for-the-badge&logo=github&color=24292e&logoColor=white" /></a>
-  <a href="mailto:harinath4496@gmail.com"><img src="https://img.shields.io/badge/Email-harinath4496%40gmail.com-18181b?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Location-Ongole%2C%20AP%2C%20India-18181b?style=for-the-badge&logo=googlemaps&logoColor=white" />
+  <a href="https://skilloriax.in" target="_blank"><img src="https://img.shields.io/badge/Live_Platform-Skilloriax.in-09090b?style=for-the-badge&logo=vercel&logoColor=white&labelColor=18181b" alt="Live Platform" /></a>
+  <img src="https://img.shields.io/badge/Focus-Edge_AI_%7C_Full--Stack_%7C_Systems-09090b?style=for-the-badge&logo=codewars&logoColor=38bdf8&labelColor=18181b" alt="Engineering Focus" />
+  <img src="https://img.shields.io/badge/SIH_2026-ISRO_PS_%23173-09090b?style=for-the-badge&logo=nasa&logoColor=white&labelColor=18181b" alt="SIH 2026" />
+  <a href="mailto:harinath4496@gmail.com"><img src="https://img.shields.io/badge/Get_In_Touch-Contact_Me-09090b?style=for-the-badge&logo=gmail&logoColor=ea4335&labelColor=18181b" alt="Contact" /></a>
 </p>
 
 </div>
